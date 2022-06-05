@@ -4,8 +4,10 @@
 ## *Contacts*:
    * [telegram](https://t.me/ruslan_bolshakov)
    * [discord](https://discordapp.com/users/210393364279984129/)
+
 ## *About me*
 I'm a QA Automation Engeneer. I'm testing the API. I write autotests in python with the pytest framework. I also want to learn frontend skills, so I signed up for rss course.
+
 ## *Hard skils*
 * Python
 * Docker
@@ -14,6 +16,7 @@ I'm a QA Automation Engeneer. I'm testing the API. I write autotests in python w
 * Testing
 * CI/CD
 * SQL
+
 ## *Code example* 
 ```python
 def likes(names):
@@ -30,6 +33,7 @@ def likes(names):
         return f'{names[0]}, {names[1]} and {length - 2} others like this'
     pass
 ```
+
 ## *Work experience*:
 * 1 year experience as a QA Automation
 * No frontend dev experience
