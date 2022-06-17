@@ -1,10 +1,120 @@
 <!DOCTYPE html>
 <html lang="ru">
 	<head>
-	  <meta charset="utf-8">
-	  <title>rss</title>
+		<meta charset="utf-8">
+		<title>cv</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="icon" href="assets/favicon.ico">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		rss
+	<header class = "header">
+		<div class = "container">
+			<nav class="nav">
+				<ul class="nav-list">
+					<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+					<li class="nav-item"><a href="#about_me" class="nav-link">About me</a></li>
+					<li class="nav-item"><a href="#skills" class="nav-link">Hard Skills</a></li>
+					<li class="nav-item"><a href="#code_example" class="nav-link">Code example</a></li>
+					<li class="nav-item"><a href="#experience" class="nav-link">Work experience</a></li>
+					<li class="nav-item"><a href="#education" class="nav-link">Education and courses</a></li>
+					<li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main class = "main">
+		<div class = "container">
+			<section class="section" id="profile">
+				<p><h1 class="section-title">Ruslan Bolshakov</h1>
+				<img src="./assets/avatars.jpg" alt="avatar" height="256" width="256">
+			</section>
+			<section class="section" id="contacts">
+				<h2 class="section-title">Contacts</h2>
+				<a href="https://t.me/ruslan_bolshakov">
+					<img src="./assets/telegram.png" alt="telegram" height="32" width="32">
+				</a>
+				<a href="https://discordapp.com/users/210393364279984129/">
+					<img src="./assets/discord.png" alt="discord" height="32" width="32">
+				</a>
+			</section>
+			<section class="section" id="about_me">
+				<h2 class="section-title">About me</h2>
+				<p>I'm a QA Automation Engeneer. I'm testing the API. I write autotests in python with the pytest framework. I also want to learn frontend skills, so I signed up for rs course.</p>
+			</section>
+			<section class="section" id="skills">
+				<h2 class="section-title">Hard skills</h2>
+				<ul class="skill-list">
+					<li>Python</li>
+					<li>Docker</li>
+					<li>K8S</li>
+					<li>Git</li>
+					<li>API Testing</li>
+					<li>CI/CD</li>
+					<li>SQL</li>
+				</ul>
+			</section>
+			<section class="section" id="code_example">
+				<h2 class="section-title">Code example</h2>
+				<pre><code class="language-python">def likes(names):
+    length = len(names)
+    if length == 0:
+        return &#39;no one likes this&#39;
+    if length == 1:
+        return f&#39;{names[0]} likes this&#39;
+    if length == 2:
+        return f&#39;{names[0]} and {names[1]} like this&#39;
+    if length == 3:
+        return f&#39;{names[0]}, {names[1]} and {names[2]} like this&#39;
+    if length &gt; 3:
+        return f&#39;{names[0]}, {names[1]} and {length - 2} others like this&#39;
+    pass
+</code></pre>
+			</section>
+			<section class="section" id="experience">
+				<h2 class="section-title">Experience</h2>
+				<ul class="experience-list">
+					<li>1 year experience as a QA Automation</li>
+					<li>No frontend dev experience</li>
+				</ul>
+			</section>
+			<section class="section" id="education">
+				<h2 class="section-title">Education and Courses</h2>
+				<ul class="education-list">
+					<li>Higher education
+						<ol>
+							<li>Bachelor of Information Systems, St. Petersburg State University of Technology</li>
+						</ol>
+					</li>
+					<li>Courses:
+					<ol>
+						<li><a href="https://stepik.org/course/99188/info">Kubernetes for users</a></li>
+						<li><a href="https://stepik.org/course/67/info">Programming on Python</a></li>
+						<li><a href="https://stepik.org/course/63054/info">SQL</a></li></ol>
+					</li>
+				</ul>
+			</section>
+			<section class="section" id="languages">
+				<h2 class="section-title">Languages</h2>
+				<ul class="languages-list">
+					<li>Russian - native speaker</li>
+					<li>English A2</li>
+				</ul>
+			</section>
+		</div>
+	</main>
+	<footer class = "footer">
+			<div class="github-icon">
+				<a href="https://github.com/Inojj/">
+				<img src="./assets/github.png" alt="github" width="64" height="64"></a>
+			</div>
+			<div class="year">2022</div>
+			<div class="rss-school">
+				<a href="https://rs.school/js/">
+				<img src="./assets/rs_school_js.svg" alt="rs-school" width="64" height="64"></a>
+			</div>
+	</footer>
 	</body>
 </html>
